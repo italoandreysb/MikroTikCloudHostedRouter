@@ -27,6 +27,12 @@ A Licença CHR é uma versão do RouterOs executada em uma máquina virtual (VM)
 - P10 Perpétua-10: Permite que seja utilizada de maneira indefinida, com limite de  10 Gbps de Upload  por interface, todos os demais recursos são disponíveis sem restrições É possível fazer upgrade de p10 para p-ilimitado Após a compra da atualização, a licença anterior ficará disponível para uso posterior em sua conta.
 - P-Ilimitado: Permite que seja utilizada de maneira indefinida, é uma licença de alto nível e não possuí limitações pré-definidas.
 
-## Procedimento:
+### Como checar o nível licença:
+
+Acesse o terminal do mikrotik e digite:
+
+  ```system licence print```
+
+## Procedimento de instalação da CRS:
 
 - Lique [AQUI](InstalandoCHR.md) para ver como executar o processo.
