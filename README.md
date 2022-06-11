@@ -1,4 +1,4 @@
-# Mikrotik Virtual Cloud Hosted Router
+# Mikrotik Virtual - CHR
 
 ### Licença CHR (Clouded Hosted Router)
 A Licença CHR é uma versão do RouterOs executada em uma máquina virtual (VM). Ela suporta as arquiteturas x86 de 64 bits e pode ser utilizada na maioria das VM’s — como VMWare, Hyper-V, VirtualBox, KVM e outros. Possui todos os recursos do RouterOS por padrão, porém o modelo de licenciamento é diferente das outras versões.
