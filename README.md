@@ -14,10 +14,10 @@ O Mikrotik é composto por **7** níveis de licença. São elas:
 A Licença CHR é uma versão do RouterOs executada em uma máquina virtual (VM). Ela suporta as arquiteturas x86 de 64 bits e pode ser utilizada na maioria das VM’s — como VMWare, Hyper-V, VirtualBox, KVM e outros. Possui todos os recursos do RouterOS por padrão, porém o modelo de licenciamento é diferente das outras versões.
 
 ### Requisitos mínimos para a licença CHR
-Versão do pacote: RouterOS v6.34 ou mais recente
-CPU do host: 64 bits com suporte a virtualização
-RAM: 128 MB ou mais
-Disco: 128 MB de espaço em disco para o disco rígido virtual CHR (máximo: 16 GB)
+- Versão do pacote: RouterOS v6.34 ou mais recente
+- CPU do host: 64 bits com suporte a virtualização
+- RAM: 128 MB ou mais
+- Disco: 128 MB de espaço em disco para o disco rígido virtual CHR (máximo: 16 GB)
 
 ### O licenciamento CHR possui 5 níveis de licença:
 
