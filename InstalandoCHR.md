@@ -10,13 +10,17 @@ Será algo assim: https://download.mikrotik.com/routeros/6.48.6/chr-6.48.6.img.z
 2. Acessando o Proxmox via terminal, baixe e extraia a imagem com o unzip:
 
 ```
-  $ wget https://download.mikrotik.com/routeros/6.48.6/chr-6.48.6.img.zip
-  $ apt update
-  $ apt install unzip
-  $ unzip chr-6.48.6.img.zip
+  $ wget https://download.mikrotik.com/routeros/6.48.6/chr-6.48.6.vmdk
 ```
 
 4. Crie uma VM no proxmox via Interface gráfica.
+
+4.1 Clique com o botão direito em PVE, selecione Create VM.
+4.2 Na aba General, no campo Name dê um nome.
+4.3 Na aba Os, marque a opção Do not use any media.
+4.4 Na aba Hard disk crie um disco de 1GB mesmo (ele será removido posteriormente)
+4.5 Nas abas de CPU' e Memory, escolha de acordo com a necessidade.
+4.6 Na aba network, escolha a bridge de acordo com a necessidade. Se a CHR ficar na rede 10, selecione a vmbr426.
 
 5. Com a VM já criada no Proxmox remova o disco:
 
